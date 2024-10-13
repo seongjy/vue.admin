@@ -1,0 +1,24 @@
+button {background: transparent; border:0; line-height: 1.2rem; padding:0}
+
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+/* tailwind의 우선순위를 위해 글로벌에서 불러온다 */
+
+.bg-primary {background: #35363a !important;}
+.bg-primary-lighten-1 {background: #5867A7 !important}
+.bg-secondary {background: #65a4f1 !important}
+.bg-charcoal {background: #666666 !important}
+.bg-error {background: #F4516C !important}
+.bg-success {background: #5CBF60 !important}
+.bg-warning {background: #FFC107 !important}
+
+.ant-form-item-explain-error {font-size:12px;}
+/* Ant design default css */
+/*
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-input-search,
+.ant-input-group-wrapper .ant-input,
+.ant-btn,
+.ant-checkbox .ant-checkbox-inner {border-radius: 2px !important;}*/
